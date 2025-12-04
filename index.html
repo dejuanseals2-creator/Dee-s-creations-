@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Video Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Video Generator (Pexels)</h1>
+    <form id="searchForm">
+      <input type="text" id="prompt" placeholder="Describe your movie / TV show idea" required>
+      <button type="submit">Create Video</button>
+    </form>
+    <form id="urlForm">
+      <input type="url" id="videoUrl" placeholder="Paste a video/article URL">
+      <button type="submit">Generate Clips w/ Captions & Voiceover</button>
+    </form>
+    <div id="results"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
