@@ -1,4 +1,4 @@
-const PEXELS_API_KEY = BN8gjw3Xck9J2JbfBiVUSLYnY5EWHvXJrzeX5UcoKVicbDzGT1jWndwR
+const PEXELS_API_KEY = srv-d4ojoh2dbo4c73f55vbg
 
 document.getElementById('searchForm').onsubmit = async function(e) {
   e.preventDefault();
