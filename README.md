@@ -1,7 +1,7 @@
 # 🎬 AI Video Creator
 
 Transform your ideas into stunning videos instantly!  
-This project is a **concept demo** that integrates the [Pexels Video API](https://www.pexels.com/api/) to fetch free stock videos based on text prompts or URLs. It showcases how an AI-powered video creation platform could look and feel.
+
 
 ---
 
