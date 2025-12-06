@@ -1,0 +1,41 @@
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ff8a00;
+  margin: 20px 0;
+}
+
+.video-block {
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px 0;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.video-block:hover {
+  transform: translateY(-5px);
+}
+
+.video-thumb {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.video-meta {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+.video-meta button {
+  margin-top: 10px;
+  background: linear-gradient(45deg, #00c9ff, #92fe9d);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Video Creator - Transform Words to Stunning Videos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">AI Video Creator</div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#generator">Create</a>
+          <a href="#qa">Q&A</a>
+          <a href="#signup">Sign Up</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Transform Your Ideas Into Stunning Videos Instantly</h1>
+      <p>Create professional-quality videos, TV shows, short clips, and ebooks with AI-powered technology. No technical skills required. Completely free to use with unlimited creations.</p>
+      <button class="cta-button">Start Creating Now</button>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Powerful Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-video"></i></div>
+          <h3>AI Video Generation</h3>
+          <p>Turn text prompts into realistic videos instantly. Create up to 100 videos at once with our bulk processing feature.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-book"></i></div>
+          <h3>Ebook Creation</h3>
+          <p>Generate publish-ready ebooks with custom illustrations and formatting for any platform.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-link"></i></div>
+          <h3>URL Processing</h3>
+          <p>Paste any URL and our AI will extract content to create videos, clips, and subtitles automatically.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-microphone"></i></div>
+          <h3>Voiceover & Subtitles</h3>
+          <p>Add professional voiceovers and synchronized subtitles to all your videos with one click.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-film"></i></div>
+          <h3>Video Editing</h3>
+          <p>Cut, trim, merge, and enhance your videos with our intuitive editing tools.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-infinity"></i></div>
+          <h3>Unlimited Usage</h3>
+          <p>Create as many videos and ebooks as you want. No limits, no hidden fees, completely free forever.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="generator-section" id="generator">
+    <div class="container">
+      <h2 class="section-title">Create Your Video</h2>
+      <form class="generator-form">
+        <div class="form-group">
+          <label for="prompt">Describe Your Video (Be Detailed)</label>
+          <textarea id="prompt" class="form-control" placeholder="Example: A futuristic cityscape at sunset with flying cars, neon lights, and bustling crowds..."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="url">Or Paste a URL to Process</label>
+          <input type="url" id="url" class="form-control" placeholder="https://example.com/article-or-video" />
+        </div>
+        <div class="form-group">
+          <label for="style">Video Style</label>
+          <select id="style" class="form-control">
+            <option>Realistic</option>
+            <option>Animated</option>
+            <option>Cinematic</option>
+            <option>Documentary</option>
+            <option>Comic Book</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="duration">Duration (seconds)</label>
+          <input type="number" id="duration" class="form-control" value="30" min="5" max="300" />
+        </div>
+        <button type="submit" class="generate-btn">Generate Video Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="results-section">
+    <div class="container">
+      <h2 class="section-title">Recently Created Videos</h2>
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-placeholder"><i class="fas fa-play-circle"></i></div>
+          <div class="video-info">
+            <h3>Adventure in Space</h3>
+            <p>A thrilling journey through distant galaxies with breathtaking visuals.</p>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-placeholder"><i class="fas fa-play-circle"></i></div>
+          <div class="video-info">
+            <h3>Nature Documentary</h3>
+            <p>Explore the wonders of wildlife in their natural habitats.</p>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-placeholder"><i class="fas fa-play-circle"></i></div>
+          <div class="video-info">
+            <h3>Fantasy Kingdom</h3>
+            <p>Magic comes to life in this enchanting realm of mythical creatures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="qa-section" id="qa">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="qa-item">
+        <h3>Is this service really free?</h3>
+        <p>Yes! Our AI Video Creator is completely free to use with unlimited creations.</p>
+      </div>
+      <div class="qa-item">
+        <h3>How long does video generation take?</h3>
+        <p>Most videos are generated within 2-5 minutes depending on complexity.</p>
+      </div>
+      <div class="qa-item">
+        <h3>What quality are the generated videos?</h3>
+        <p>All videos are generated in Full HD (1080p) with optional 4K upgrade.</p>
+      </div>
+      <div class="qa-item">
+        <h3>Can I use the videos commercially?</h3>
+        <p>Yes, all videos created with our tool are royalty-free and can be used commercially.</p>
+      </div>
+      <div class="qa-item">
+        <h3>Do I need any technical skills?</h3>
+        <p>No technical skills required! Just describe what you want and our AI handles the rest.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="signup-section" id="signup">
+    <div class="container">
+      <h2 class="section-title">Join Our Community</h2>
+      <p>Sign up to save your creations, get early access to new features, and join our community of creators.</p>
+      <button class="cta-button">Create Free Account</button>
+      <div class="comment-section">
+        <h3>User Reviews & Ratings</h3>
+        <div class="comments-list">
+          <div class="comment">
+            <div class="comment-header">
+              <span>Alex Johnson</span>
+              <span class="rating">★★★★★</span>
+            </div>
+            <p>This tool is incredible! I created a 10-part documentary series in just one day.</p>
+          </div>
+          <div class="comment">
+            <div class="comment-header">
+              <span>Sarah Williams</span>
+              <span class="rating">★★★★☆</span>
+            </div>
+            <p>Amazing for content creators. The ebook feature saved me weeks of work.</p>
+          </div>
+          <div class="comment">
+            <div class="comment-header">
+              <span>Michael Chen</span>
+              <span
